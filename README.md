@@ -27,3 +27,8 @@ velocity using any first-principles method based on the Earth's slightly ellipti
 W = A_0 + A_1 cos (2 pi t/P)
 
 where A_0 is the constant term of the Fourier series, A_1 is the first cosine coefficient, t is time, P is the period (1 year = 365.25 days = 31557600 seconds), and pi = 3.14159...
+
+The time unit in the spreadsheet is 1 day, in line with usual spreadsheet practice.
+
+Values for all constants are provided in the spreadsheet. In particular A_0 = 0.01720242 radian/day gives one complete revolution per year as required, and A_1 = 5.7024E-4 radian/day gives approximately the peak amplitude of 
+about 450 s for the once-per-year term in the equation of time. 

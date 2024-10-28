@@ -41,9 +41,12 @@ The single-tab spreadsheet implements a fourth order Runge-Kutta integration of 
 
 Values of the required constants are supplied in the spreadsheet. These are:
 
-Universal gravitational constant G = 6.6743E-11 m^3 kg^-1 s^-2
-Solar mass M = 1.989E30 kg
-Perihelion distance 147098075000 m (https://www.astropixels.com/ephemeris/perap2001.html)
-Perihelion speed 30292.37 m/s
+Universal gravitational constant G = 6.6743E-11 m^3 kg^-1 s^-2 (https://en.wikipedia.org/wiki/Gravitational_constant)
+Solar mass M = 1.988416E30 kg (https://en.wikipedia.org/wiki/Solar_mass)
+Perihelion distance 147098074000 m (https://www.astropixels.com/ephemeris/perap2001.html)
+Perihelion speed 30286.5033 m/s (https://en.wikipedia.org/wiki/Earth%27s_orbit modified to give exactly 4 revolutions in 4*365.25=1461 days)
+Timestep h = 86400 s (can be modified for higher/lower precision)
 
-The perihelion speed was modified slightly from
+The perihelion speed was modified slightly from the value 30.29 km/s given on the Wikipedia page, to give exactly 4 complete revolutions in 4*365.25 days.
+
+See https://www.actionphysics.uk/index.php/solving-the-orbital-equations/ for more details including the meaning of each column in the calculation.

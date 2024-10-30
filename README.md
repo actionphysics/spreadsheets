@@ -50,3 +50,15 @@ Timestep h = 86400 s (can be modified for higher/lower precision)
 The perihelion speed was modified slightly from the value 30.29 km/s given on the Wikipedia page, to give exactly 4 complete revolutions in 4*365.25 days.
 
 See https://www.actionphysics.uk/index.php/solving-the-orbital-equations/ for more details including the meaning of each column in the calculation.
+
+SolarNoon_NewtonRaphson.csv
+===========================
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested).
+
+The single-tab spreadsheet includes a table of values for the Earth's angle \theta in its orbit around the Sun, with \theta=0 at perihelion. These values were
+found by solution of the orbital equations using the spreadsheet Orbit_RK4_formulas.csv (above).
+
+Based on the tabulated values for \theta and a value for the Earth's angular velocity of rotation on its axis \omega, the spreadsheet calculates the deviations of the clock times of solar noon
+where the deviations are due only to the effect of variation in the Earth's orbital angular velocity (ignoring the effect of the tilt of the Earth's axis of rotation).
+
+See https://www.actionphysics.uk/index.php/at-last-the-first-term/ for more details including the meaning of each column in the calculation.

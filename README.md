@@ -62,3 +62,13 @@ Based on the tabulated values for \theta and a value for the Earth's angular vel
 where the deviations are due only to the effect of variation in the Earth's orbital angular velocity (ignoring the effect of the tilt of the Earth's axis of rotation).
 
 See https://www.actionphysics.uk/index.php/at-last-the-first-term/ for more details including the meaning of each column in the calculation.
+
+Cambridge_SolarNoon_Fourier_Formulas.csv
+========================================
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested).
+
+The single-tab spreadsheet includes a column of values for the time of solar noon from https://gml.noaa.gov/grad/solcalc/
+
+The spreadsheet calculates the Fourier coefficients for a 3-term Fourier series (constant, once-per-year cycle, twice-per-year cycle) fitted to the deviation of solar noon from clock noon.
+
+See https://www.actionphysics.uk/index.php/at-last-the-first-term/ for more details including the meaning of each column in the calculation.

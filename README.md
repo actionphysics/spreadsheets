@@ -35,7 +35,7 @@ about 450 s for the once-per-year term in the equation of time.
 
 Orbit_RK4_Formulas.csv
 ======================
-This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested).
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested) and Google Sheets.
 
 The single-tab spreadsheet implements a fourth order Runge-Kutta integration of the coupled radial and angular equations for the Earth's orbit around the Sun, solving for r(t) and \theta(t).
 
@@ -53,7 +53,7 @@ See https://www.actionphysics.uk/index.php/solving-the-orbital-equations/ for mo
 
 SolarNoon_NewtonRaphson.csv
 ===========================
-This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested).
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested) and Google Sheets.
 
 The single-tab spreadsheet includes a table of values for the Earth's angle \theta in its orbit around the Sun, with \theta=0 at perihelion. These values were
 found by solution of the orbital equations using the spreadsheet Orbit_RK4_formulas.csv (above).
@@ -65,10 +65,21 @@ See https://www.actionphysics.uk/index.php/at-last-the-first-term/ for more deta
 
 Cambridge_SolarNoon_Fourier_Formulas.csv
 ========================================
-This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested).
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested) and Google Sheets.
 
 The single-tab spreadsheet includes a column of values for the time of solar noon from https://gml.noaa.gov/grad/solcalc/
 
 The spreadsheet calculates the Fourier coefficients for a 3-term Fourier series (constant, once-per-year cycle, twice-per-year cycle) fitted to the deviation of solar noon from clock noon.
 
 See https://www.actionphysics.uk/index.php/at-last-the-first-term/ for more details including the meaning of each column in the calculation.
+
+TiltTerm_NewtonRaphson_Formulas.csv
+===================================
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested) and Google Sheets.
+
+The single-tab spreadsheet calculates the twice-per-year cyclical variation term in the variation of solar noon (equation of time). This term is due to the tilt of the Earth's axis
+by about 23.5 degrees with respect to the perpendicular to the plane of the Earth's orbit around the Sun. The calculation isolates the twice-per-year variation by assuming that the Earth's 
+orbit around the Sun is at constant angular velocity, as if the Earth's orbit were exactly circular. The spreadsheet uses the Newton-Raphson method to solve for each solar noon.
+
+See https://www.actionphysics.uk/index.php/effect-of-tilt/ for more details including the meaning of each column in the calculation.
+

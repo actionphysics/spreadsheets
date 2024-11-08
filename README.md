@@ -83,3 +83,12 @@ orbit around the Sun is at constant angular velocity, as if the Earth's orbit we
 
 See https://www.actionphysics.uk/index.php/effect-of-tilt/ for more details including the meaning of each column in the calculation.
 
+BothTermsAllTogether_Formulas.csv
+=================================
+This file was produced from LibreOffice Calc (version 24.2.5.2). It should be compatible with MS Excel (not tested) and Google Sheets.
+
+The single-tab spreadsheet calculates the predicted time of solar noon for dates for dates from 21-Dec-2023 through 2024 based on the tilted-axis analysis applied to the Earth-Sun angle derived from the earlier 
+orbital calculation (see Orbit_RK4_Formulas.csv). The spreadsheet stores the Earth-Sun angle as a function of date through the year as literal values in a column. The spreadsheet also stores literal values
+of the observed time of solar noon from 21-Dec-2023 to 8-Jan-2025 (values from the NOAA Global Monitoring Laboratory page).
+
+See https://www.actionphysics.uk/index.php/all-together-now-both-terms/ for more details including the meaning of each column in the calculation.
